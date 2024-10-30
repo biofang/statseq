@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "statseq"
 version = "0.1.2"
-description = ""
+description = "A simple cli tool for fasta file reading and statistics"
 authors = ["biofang <fangj1689@163.com>"]
 readme = "README.md"
 
