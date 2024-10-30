@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "statseq"
+version = "0.1.2"
+description = ""
+authors = ["biofang <fangj1689@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.12.5"
+
+[tool.poetry.scripts]
+statseq = 'statseq.cli:app'
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+priority = "primary"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
