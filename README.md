@@ -25,7 +25,7 @@ Options
 #### stat 
 ```
 Options 
---filepath  -f      PATH  Input fasta file path. [default: None] [required]  
---attrs     -a      TEXT  Input one or more values, separated by commas [default: id,seq,seq_len,gc_content]
---help      -h            Show this message and exit.   
+--filepath  -f                       PATH  Input fasta file path. [default: None] [required]  
+--summary   -s  --no-summary  -no-s        Output fasta summary stat info. [default: summary]
+--help      -h                             Show this message and exit.   
 ```
