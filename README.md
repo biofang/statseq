@@ -1,7 +1,7 @@
-### introduction
-
+### Introduction
+```
 A simple cli tool for fasta file reading and statistics
-
+```
 ### Usage
 
     Usage: statseq [OPTIONS] COMMAND [ARGS]...
